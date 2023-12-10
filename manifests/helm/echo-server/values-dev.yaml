@@ -7,10 +7,10 @@ replicaCount: 2
 image:
   echoServer:
     repository: xiejiajia-0-registry.cn-beijing.cr.aliyuncs.com/123/echo-server
-    tag: "v1.0"
+    tag: "latest"
   echoWebServer:
     repository: xiejiajia-0-registry.cn-beijing.cr.aliyuncs.com/123/echo-web-server
-    tag: "v1.0"
+    tag: "latest"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []

@@ -17,7 +17,6 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-
 secretManager:
   enabled: true
   secretName: db-cred-dev

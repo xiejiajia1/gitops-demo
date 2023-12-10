@@ -6,10 +6,10 @@ replicaCount: 2
 
 image:
   echoServer:
-    repository: demo-test-registry.cn-hangzhou.cr.aliyuncs.com/cidemo/echo-server
+    repository: xiejiajia-0-registry.cn-beijing.cr.aliyuncs.com/123/echo-server
     tag: "v1.0"
   echoWebServer:
-    repository: demo-test-registry.cn-hangzhou.cr.aliyuncs.com/cidemo/echo-web-server
+    repository: xiejiajia-0-registry.cn-beijing.cr.aliyuncs.com/123/echo-web-server
     tag: "v1.0"
   pullPolicy: IfNotPresent
 
